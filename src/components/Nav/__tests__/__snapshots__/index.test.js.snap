@@ -3,7 +3,7 @@
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
   <header
-    class="flex-row"
+    class="flex-row px-1"
   >
     <h2>
       <a
@@ -33,37 +33,18 @@ exports[`Nav component matches snapshot 1`] = `
             About me
           </a>
         </li>
-        <li>
+        <li
+          class="mx-2"
+        >
           <span>
             Contact
           </span>
         </li>
         <li
-          class="mx-2"
-        >
-          <span>
-            Commercial
-          </span>
-        </li>
-        <li
-          class="mx-2"
+          class="mx-1 false"
         >
           <span>
             Portraits
-          </span>
-        </li>
-        <li
-          class="mx-2"
-        >
-          <span>
-            Food
-          </span>
-        </li>
-        <li
-          class="mx-2"
-        >
-          <span>
-            Landscape
           </span>
         </li>
       </ul>
