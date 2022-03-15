@@ -27,5 +27,3 @@ describe("Contact is rendering", () => {
     expect(getByTestId("button")).toHaveTextContent("Submit");
   });
 });
-
-// --continue
